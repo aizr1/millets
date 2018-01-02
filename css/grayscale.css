@@ -47,7 +47,7 @@ a {
     color: #c3be45; }
 
 #mainNav {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -58,6 +58,7 @@ a {
     color: white;
     border: 1px solid white; }
   #mainNav .navbar-brand {
+    font-family: 'Goblin One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700; }
   #mainNav a {
     color: white; }

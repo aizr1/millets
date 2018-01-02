@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      "age-check",
+      "/home/dev/Downloads/millets"
+    ]
+  ],
+  "_from": "age-check@latest",
+  "_id": "age-check@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/age-check",
+  "_nodeVersion": "7.9.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/age-check-1.0.0.tgz_1493671510959_0.7862667075823992"
+  },
+  "_npmUser": {
+    "email": "alyss.noland@bigcommerce.com",
+    "name": "preciselyalyss"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "age-check",
+    "raw": "age-check",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/age-check/-/age-check-1.0.0.tgz",
+  "_shasum": "d356d8426a0495d236bb521e8c94af6ec2a6cf4f",
+  "_shrinkwrap": null,
+  "_spec": "age-check",
+  "_where": "/home/dev/Downloads/millets",
+  "author": {
+    "name": "Michael Soriano"
+  },
+  "bugs": {
+    "url": "https://github.com/michaelsoriano/age-check/issues"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "description": "jQuery plugin to verify if user is old enough to enter site",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "d356d8426a0495d236bb521e8c94af6ec2a6cf4f",
+    "tarball": "https://registry.npmjs.org/age-check/-/age-check-1.0.0.tgz"
+  },
+  "gitHead": "3858df2822b48826a5d9e193f8ce006142930e7a",
+  "homepage": "https://github.com/michaelsoriano/age-check#readme",
+  "keywords": [
+    "age",
+    "jquery",
+    "verification"
+  ],
+  "license": "GPL-3.0",
+  "main": "jquery.agecheck.js",
+  "maintainers": [
+    {
+      "name": "preciselyalyss",
+      "email": "alyss.noland@bigcommerce.com"
+    }
+  ],
+  "name": "age-check",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelsoriano/age-check.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

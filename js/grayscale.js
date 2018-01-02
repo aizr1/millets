@@ -26,6 +26,20 @@
     offset: 54
   });
 
+  //Activate Age Check
+    (function ($){
+        var settings = $.extend({
+            minAge : 21,
+            redirectTo : '',
+            title : 'Age Verification',
+            copy : 'This Website requires you to be [21] years or older to enter. Please enter your Date of Birth in the fields below in order to continue:'
+        }, options);
+
+        $.ageCheck = function(options) {
+            //code
+        };
+    })(jQuery);
+
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
