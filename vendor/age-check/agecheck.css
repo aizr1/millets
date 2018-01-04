@@ -14,11 +14,12 @@
 }
 .ac-container {
     box-sizing: border-box;
-    font-family: 'Bree Serif', serif; 
+    font-family: serif;
     width: 360px;
     position: fixed;
     padding: 20px 20px 30px 20px;
     background: #fff;
+    color: black;
     z-index: 99999;
     opacity:0;
     text-align:center;

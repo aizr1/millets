@@ -14,8 +14,8 @@
       minAge: 21,
       redirectTo: '',
       redirectOnFail: '',
-      title: 'Age Verification',
-      copy: 'This Website requires you to be [21] years or older to enter. Please enter your Date of Birth in the fields below in order to continue:',
+      title: 'ALTERSÜBERPRÜFUNG',
+      copy: 'Um Millet\'s veganen Sahnelikör sehen zu können, musst du über 18 sein und das gesetzlich vorgeschriebene Mindestalter für den Kauf von Alkohol erfüllen. Bitte trink verantwortungsbewusst.'
     }, options);
 
 
@@ -35,10 +35,10 @@
       validate() {
         _this.errors = [];
         if (/^([0-9]|[12]\d|3[0-1])$/.test(_this.day) === false) {
-          _this.errors.push('Day is invalid or empty');
+          _this.errors.push('Tag ist nicht richtig oder leer.');
         }
         if (/^(19|20)\d{2}$/.test(_this.year) === false) {
-          _this.errors.push('Year is invalid or empty');
+          _this.errors.push('Das Jahr ist falsch oder leer.');
         }
         _this.clearErrors();
         _this.displayErrors();
@@ -63,7 +63,7 @@
       },
       buildHtml() {
         const copy = settings.copy;
-        const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        const months = ['Januar', 'Februar', 'M&auml;rz', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
         let html = '';
         html += '<div class="ac-overlay"></div>';
         html += '<div class="ac-container">';
@@ -110,7 +110,7 @@
         }
       },
       handleSuccess() {
-        const successMsg = '<h3>Success!</h3><p>You are now being redirected back to the application...</p>';
+        const successMsg = '<h3>Erfolg!</h3><p>Du wirst jetzt weitergeleitet.</p>';
         $('.ac-container').html(successMsg);
         setTimeout(() => {
           $('.ac-container').animate({
@@ -129,7 +129,7 @@
         }, 2000);
       },
       handleUnderAge() {
-        const underAgeMsg = '<h3>Sorry, you are not old enough to view this site...</h3>';
+        const underAgeMsg = '<h3>Entschuldige, aber du bist nicht alt genug um diese Seite anzuzeigen.</h3>';
         $('.ac-container').html(underAgeMsg);
         if (settings.redirectOnFail !== '') {
           setTimeout(() => {
