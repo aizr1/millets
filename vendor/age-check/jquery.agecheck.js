@@ -14,7 +14,7 @@
       minAge: 18,
       redirectTo: '',
       redirectOnFail: 'https://www.bzga.de/',
-      title: 'ALTERSCHECK',
+      title: 'ALTERS-CHECK',
       copy: 'Um Millet\'s veganen Sahnelikör sehen zu können, musst du über 18 sein und das gesetzlich vorgeschriebene Mindestalter für den Kauf von Alkohol erfüllen. Bitte trink verantwortungsbewusst.'
     }, options);
 
@@ -77,12 +77,12 @@
         }
         html += '</select>';
         html += '<input class="year" maxlength="4" placeholder="0000"/>';
-        html += '<button>Submit</button></div></div>';
+        html += '<button>Check</button></div></div>';
 
         $('body').append(html);
 
         $('.ac-overlay').animate({
-          opacity: 0.8,
+          opacity: 1,
         }, 500, () => {
           _this.reCenter($('.ac-container'));
           $('.ac-container').css({
