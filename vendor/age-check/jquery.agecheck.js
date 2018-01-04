@@ -11,10 +11,10 @@
 (function ($) {
   $.ageCheck = function (options) {
     const settings = $.extend({
-      minAge: 21,
+      minAge: 18,
       redirectTo: '',
-      redirectOnFail: '',
-      title: 'ALTERSÜBERPRÜFUNG',
+      redirectOnFail: 'https://www.bzga.de/',
+      title: 'ALTERSCHECK',
       copy: 'Um Millet\'s veganen Sahnelikör sehen zu können, musst du über 18 sein und das gesetzlich vorgeschriebene Mindestalter für den Kauf von Alkohol erfüllen. Bitte trink verantwortungsbewusst.'
     }, options);
 
@@ -70,13 +70,13 @@
         html += `<h2>${settings.title}</h2>`;
         html += `<p>${copy.replace('[21]', `<strong>${settings.minAge}</strong>`)}`; +'</p>';
         html += '<div class="errors"></div>';
-        html += '<div class="fields"><select class="month">';
+        html += '<div class="fields">';
+          html += '<input class="day" maxlength="2" placeholder="00" /><select class="month">';
         for (let i = 0; i < months.length; i++) {
           html += `<option value="${i}">${months[i]}</option>`;
         }
         html += '</select>';
-        html += '<input class="day" maxlength="2" placeholder="01" />';
-        html += '<input class="year" maxlength="4" placeholder="1989"/>';
+        html += '<input class="year" maxlength="4" placeholder="0000"/>';
         html += '<button>Submit</button></div></div>';
 
         $('body').append(html);
