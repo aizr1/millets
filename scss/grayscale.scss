@@ -138,13 +138,17 @@ a {
   text-align: center;
 
   color: white;
-  background: url('../img/intro-bg2.jpg') no-repeat bottom center scroll;
+  background: url('../img/millets-header.jpg') no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   filter: grayscale(100%);
+
+  box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+
+
   .intro-body {
     display: table-cell;
 
