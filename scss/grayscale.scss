@@ -1,7 +1,7 @@
 @import 'variables.scss';
 @import 'mixins.scss';
 body {
-  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Old Standard TT', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   position: relative;
 
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Goblin One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Abril Fatface', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 
   margin: 0 0 35px;
@@ -33,7 +33,7 @@ h6 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
 
   margin: 0 0 25px;
@@ -55,13 +55,13 @@ a {
   &:hover {
     text-decoration: none;
 
-    color: darken($primary, 20%);
+    color: darken($primary, 40%);
   }
 }
 
 #mainNav {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
+  font-weight: 600;
   margin-bottom: 0;
 
   text-transform: uppercase;
@@ -77,7 +77,7 @@ a {
     border: 1px solid white;
   }
   .navbar-brand {
-    font-family: 'Goblin One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Abril Fatface', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
   }
   a {
@@ -144,7 +144,7 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  filter: grayscale(100%);
+  /*filter: grayscale(100%);*/
 
   box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
 
@@ -157,7 +157,7 @@ a {
       font-size: 50px;
     }
     .intro-text {
-      font-size: 18px;
+      font-size: 24px;
     }
   }
   @media(min-width:768px) {
@@ -168,7 +168,7 @@ a {
         font-size: 100px;
       }
       .intro-text {
-        font-size: 22px;
+        font-size: 28px;
       }
     }
   }
@@ -186,13 +186,13 @@ a {
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid black;
   border-radius: 100% !important;
   background: transparent;
   &:focus,
   &:hover {
-    color: white;
+    color: black;
     outline: none;
     background: fade-out(white, .9);
   }
@@ -305,4 +305,9 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: fade-out(white, .8);
+}
+
+.transparent-background {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 2vw;
 }
