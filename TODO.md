@@ -1,3 +1,15 @@
+#Aktuelles Zeusch
+- Youtube Embed, wenn das Video von der Influencerin da ist.
+- Google My Business
+- Google Maps einbindung
+- Recherche Social Media Einbindung ( Bilder, wenig Text, Links auf Social Apps)
+- Altercheck Korrekte Implementierung
+- Cookie Warnung im Datenschutzteil
+- Google Analytics
+- BigCartel Styling, Liveschaltung, AGB!
+- 
+
+
 #Millets Brainstorming
 
 ##Allgemein:

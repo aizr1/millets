@@ -5,7 +5,7 @@
  * Options can be passed for easy customization.
  * Author: Michael Soriano
  * Author's website: http://fearlessflyer.com*
- *
+ * TODO: Add Logo to the Check Screen.
  */
 
 (function ($) {
@@ -14,11 +14,11 @@
       minAge: 18,
       redirectTo: '',
       redirectOnFail: 'https://www.bzga.de/',
-      title: 'ALTERS-CHECK',
+      title: 'Altersüberprüfung',
       copy: 'Um Millet\'s veganen Sahnelikör sehen zu können, musst du über 18 sein und das gesetzlich vorgeschriebene Mindestalter für den Kauf von Alkohol erfüllen. Bitte trink verantwortungsbewusst.'
     }, options);
 
-
+//
     const _this = {
       month: '',
       day: '',

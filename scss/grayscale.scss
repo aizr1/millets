@@ -1,7 +1,7 @@
 @import 'variables.scss';
 @import 'mixins.scss';
 body {
-  font-family: 'Old Standard TT', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   position: relative;
 
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Abril Fatface', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Alegreya SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 
   margin: 0 0 35px;
@@ -55,7 +55,7 @@ a {
   &:hover {
     text-decoration: none;
 
-    color: darken($primary, 40%);
+    color: lighten($primary, 20%);
   }
 }
 
@@ -307,7 +307,3 @@ body {
   -webkit-tap-highlight-color: fade-out(white, .8);
 }
 
-.transparent-background {
-  background: rgba(0, 0, 0, 0.2);
-  padding: 2vw;
-}
