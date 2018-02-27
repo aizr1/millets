@@ -327,8 +327,10 @@ main{
   justify-content: center;
   padding: 10px;
   font-size: 0.7rem;
+  opacity: 0;
+  transition: opacity 1s;
   &--active{
-    margin-top: 0;
+    opacity: 1;
   }
 
   p,a  {

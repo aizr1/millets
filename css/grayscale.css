@@ -244,9 +244,11 @@ main {
   align-items: center;
   justify-content: center;
   padding: 10px;
-  font-size: 0.7rem; }
+  font-size: 0.7rem;
+  opacity: 0;
+  transition: opacity 1s; }
   .cookie-bar--active {
-    margin-top: 0; }
+    opacity: 1; }
   .cookie-bar p, .cookie-bar a {
     margin: 0;
     text-align: center;

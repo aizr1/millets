@@ -9,9 +9,9 @@ $(document).ready(function(){
     // Button ID
     var buttonId = '#cookie-understand';
 // Cookie name
-    var cookieName = 'lecookie';
+    var cookieName = 'millets';
 // Cookie value
-    var cookieValue = 'le-cookie1';
+    var cookieValue = 'acceptedcookies';
 // Cookie expire (days)
     var cookieExpire = 10;
 
@@ -30,15 +30,6 @@ $(document).ready(function(){
         });
 
         checkCookie();
-
-        $('body').on('click', '#delete-cookie', function() {
-
-            // Delete the cookie
-            $.removeCookie(cookieName, { path: '/' });
-
-            checkCookie();
-        });
-
     });
 
 // If no cookie, show the cookie bar.
