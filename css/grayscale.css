@@ -41,10 +41,10 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #dcd992; }
+  color: #FFF7BC; }
   a:focus, a:hover {
     text-decoration: none;
-    color: #f5f4df; }
+    color: white; }
 
 #mainNav {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -146,20 +146,19 @@ a {
 
 .content-section {
   padding-top: 150px;
-  padding-bottom: 150px; }
+  padding-bottom: 150px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3); }
 
-.download-section {
+.news-section {
   color: white;
   background: #000000;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #434343, #000000);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #434343, #000000);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  /* fallback for old browsers */ }
+
+.buy-section {
+  background: #000000; }
+
+.contact-section {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
 
 #map {
   width: 100%;
@@ -182,14 +181,14 @@ a {
   border-radius: 0; }
 
 .btn-default {
-  color: #dcd992;
-  border: 1px solid #dcd992;
+  color: #FFF7BC;
+  border: 1px solid #FFF7BC;
   background-color: transparent; }
   .btn-default:focus, .btn-default:hover {
     color: black;
-    border: 1px solid #dcd992;
+    border: 1px solid #FFF7BC;
     outline: none;
-    background-color: #dcd992; }
+    background-color: #FFF7BC; }
 
 ul.banner-social-buttons {
   margin-top: 0; }

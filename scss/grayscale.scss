@@ -201,20 +201,22 @@ a {
 .content-section {
   padding-top: 150px;
   padding-bottom: 150px;
+  border-top: 1px solid rgba(255,255,255,.3);
 }
 
-.download-section {
+.news-section {
   color: white;
   //background: url('../img/downloads-bg.jpg') no-repeat center center scroll;
 
   background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.buy-section {
+  background: #000000;
+}
+
+.contact-section {
+  border-bottom: 1px solid rgba(255,255,255,.3);
 }
 
 #map {
